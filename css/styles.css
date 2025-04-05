@@ -150,8 +150,7 @@ section ul{list-style: none;}
     color: #2e2f42;
     text-transform: capitalize;}
 
-.team ul{list-style: none;
-background-color: #ffffff;}
+.team ul{list-style: none;}
 
 .team-list-title {
     font-family: "Roboto", sans-serif;
@@ -163,7 +162,7 @@ background-color: #ffffff;}
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF}
+    background-color: #FFFFFF;}
 
 .team-list-par {
     font-family: "Roboto", sans-serif;
@@ -175,7 +174,7 @@ background-color: #ffffff;}
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    background-color: #FFFFFF}
+    background-color: #FFFFFF;}
 
 /*#end Team*/
 /*#region Portfolio*/
