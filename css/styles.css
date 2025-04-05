@@ -1,9 +1,8 @@
 body {
-    font-family: "Roboto","Montcerrat", sans-serif;
+    font-family: "Roboto",sans-serif;
     color:  #434455;
     background: #fff;
-    width: 1440px;
-    height: 3300px;}
+    }
 
 /*#region Header*/
 
@@ -16,9 +15,9 @@ body {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;}
-
+   
 .logo-header span {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -28,7 +27,7 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;}
+color: #2e2f42;}
 
 .header-list {list-style: none;}
 
@@ -52,7 +51,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;}
 
-.adr-list{list-style: none;}
+.adr-list ul{list-style: none;}
 
 .adr-list a {
     font-family: "Roboto", sans-serif;
@@ -63,7 +62,8 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
-text-decoration: none;}
+text-decoration: none;
+font-style: normal;}
 
 .adr-list a:hover,.adr-list a:focus {font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -74,7 +74,7 @@ text-decoration: none;}
     letter-spacing: 0.02em;
     color: #404bbf;}
 
-#stud-act:active {font-family: "Roboto", sans-serif;
+.stud-act:active {font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     
@@ -92,7 +92,7 @@ text-decoration: none;}
     background: #2e2f42;
 }
 
-h1 {
+.main-tittle {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -103,7 +103,7 @@ h1 {
     text-align: center;
     color: #fff;}
 
-.main-banner button {
+.main-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -123,13 +123,13 @@ h1 {
     height: 56px;
     border: none;}
 
-.main-banner button:hover,.main-banner button:focus{background: #404bbf;
+.main-button:hover,.main-button:focus{background: #404bbf;
 cursor: pointer;}
 
 /*end Main Banner*/
 /*#region Advantages*/
 
-.advant h3 {
+.advant-tittle {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -139,7 +139,7 @@ cursor: pointer;}
     letter-spacing: 0.02em;
     color: #2e2f42;}
 
-.advant p {
+.advant-par {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -149,12 +149,14 @@ cursor: pointer;}
     letter-spacing: 0.02em;
     color: #434455;}
 
-.advant ul{list-style: none;}
+section ul{list-style: none;}
 
 /*#end Advantages*/
 /*#region Team*/
 
-.team h2{font-family: "Roboto", sans-serif;
+.team {background-color: #F4F4FD;}
+
+.team-main-title {font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     
@@ -162,11 +164,13 @@ cursor: pointer;}
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;}
+    color: #2e2f42;
+    text-transform: capitalize;}
 
-.team ul{list-style: none;}
+.team ul{list-style: none;
+background-color: #ffffff;}
 
-.team h3 {
+.team-list-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -177,7 +181,7 @@ cursor: pointer;}
     text-align: center;
     color: #2e2f42;}
 
-.team p {
+.team-list-par {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -191,7 +195,7 @@ cursor: pointer;}
 /*#end Team*/
 /*#region Portfolio*/
 
-.portfolio h2 {
+.portfolio-main-title {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -200,11 +204,12 @@ font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;}
+color: #2e2f42;
+text-transform: capitalize;}
 
 .portfolio ul {list-style: none;}
 
-.portfolio h3 {
+.portfolio-list-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -214,7 +219,7 @@ color: #2e2f42;}
     letter-spacing: 0.02em;
     color: #2e2f42;}
 
-.portfolio p {
+.portfolio-list-par {
     font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -227,35 +232,35 @@ color: #434455;}
 /*#end Portfolio*/
 /*#region Footer*/
 
-.logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    
-    /* line-height: 21px; */ 
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-    text-decoration: none;}
-
-.logo-footer span {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    
-    /* line-height: 21px; */ 
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;}
-
-footer {
+.page-end {
     width: 1440px;
     height: 312px;
     background: #2e2f42;}
 
-footer p {
+.logo-footer {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        
+        /* line-height: 21px; */ 
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        text-decoration: none;}
+    
+.logo-footer-span {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        
+        /* line-height: 21px; */ 
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;}
+
+.page-end-par {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
